@@ -3,7 +3,7 @@
 \*-----------------------------------*/
 
 /**
- * copyright 2024 Abdul Haseeb
+ * copyright 2024 @Abdul Haseeb
  */
 
 
@@ -858,38 +858,11 @@ header .container {
    * FOOTER
    */
 
-
   .footer-link-box { grid-template-columns: 1fr 1fr; }
 
 }
 
-@media screen and (max-width: 650px) {
-  .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    justify-content: center;
-    
-  }
-  .margin-1{
-    margin-bottom: 15px;
-  }
-}
 
-@media screen and (max-width: 350px){
-.container{
-margin-left: 10px;
-margin-right: 50px;
-}
-}
-
-@media screen and (max-width: 440px){
-.container{
-margin-left: 60px;
-}
-}
 
 
 
@@ -905,7 +878,8 @@ margin-left: 60px;
 
   .container { max-width: 600px; }
 
-  
+
+
   /**
    * HERO
    */
@@ -1304,58 +1278,4 @@ margin-left: 60px;
 
   .footer-list { min-width: 180px; }
 
-}
-
-.footer-bottom{
-  display: flex;
-
-}
-
-
-.Btn {
-  border: none;
-  border-radius: 50%;
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-duration: .4s;
-  cursor: pointer;
-  position: relative;
-  background-color: rgb(31, 31, 31);
-  overflow: hidden;
-}
-
-.svgIcon {
-  transition-duration: .3s;
-}
-
-.svgIcon path {
-  fill: white;
-}
-
-.text {
-  position: absolute;
-  color: rgb(255, 255, 255);
-  width: 120px;
-  font-weight: 600;
-  opacity: 0;
-  transition-duration: .4s;
-}
-
-.Btn:hover {
-  width: 110px;
-  transition-duration: .4s;
-  border-radius: 30px;
-}
-
-.Btn:hover .text {
-  opacity: 1;
-  transition-duration: .4s;
-}
-
-.Btn:hover .svgIcon {
-  opacity: 0;
-  transition-duration: .3s;
 }
